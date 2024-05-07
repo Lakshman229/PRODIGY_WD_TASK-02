@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+.stopwatch button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#laps {
+  list-style-type: none;
+  padding: 0;
+}
+
+#laps li {
+  margin: 5px;
+}
